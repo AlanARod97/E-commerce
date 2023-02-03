@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Artemisa Relejos / E-comerce</title>
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">Artemisa Relojes - Tienda</h1>
+            </header>
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="../index.html" class=" butMenu  botonVolver"><i class="bi bi-arrow-return-left"></i>Seguir Comprando</a>
+                        </li>
+                        
+                        <li>
+                            <a href="./html/apartadoCarrito.html" class="butMenu botonCarrito active"><i class="bi bi-cart-fill"></i>Carrito <span class="numeroCarrito">0</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            
+
+            <footer>
+                <p class="textoFooter">© Artemisa Relojes 2023</p>
+            </footer>
+        </aside>
+
+        <main>
+            <h2 class="tituloPrincipal">Carrito</h2>
+            <div class="contenedorCarrito">
+               <p  id="carrito-vacio" class="carritoVacio"><i class="bi bi-emoji-frown"></i>Tu carrito esta vacio</p>
+            </div>
+
+            <div  id="carrito-productos" class="carrito-productos disabled">
+              
+            </div>
+
+            <div  id="carrito-acciones" class="carrito-acciones disabled">
+                <div class="carrito-acciones-izquierda">
+                    <button class="carrito-acciones-vaciar">Vaciar Carrito</button>
+                </div>
+                <div class="carrito-acciones-derecha">
+                    <div class="carrito-acciones-total">
+                        <p>Total</p>
+                        <p id="total">$2000</p>
+                        
+                    </div>
+                    <button class="carrito-acciones-comprar">Comprar </button>
+                </div>
+
+            
+            </div>
+
+            <p   id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra. <i class="bi bi-emoji-laughing"></i></p>
+
+                
+        </main>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="./js/carrito.js"></script>
+    
+</body>
+
+
+</html>
