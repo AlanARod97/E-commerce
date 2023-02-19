@@ -12,7 +12,9 @@
     <div class="wrapper">
         <aside>
             <header>
-                <h1 class="logo">Artemisa Relojes - Tienda</h1>
+                <h1 class="logo" id="logoArt">
+                    <img src="./img/IMG-20230219-WA0010.jpg" alt="" class="imgLogo">
+                </h1>
             </header>
                 <nav>
                     <ul class="menu">
@@ -21,7 +23,7 @@
                         </li>
                         
                         <li>
-                            <a href="./html/apartadoCarrito.html" class="butMenu botonCarrito active"><i class="bi bi-cart-fill"></i>Carrito <span class="numeroCarrito">0</span></a>
+                            <a href="./html/apartadoCarrito.html" class="butMenu botonCarrito active"><i class="bi bi-cart-fill"></i>Carrito</a>
                         </li>
                     </ul>
                 </nav>
@@ -44,7 +46,7 @@
 
             <div  id="carrito-acciones" class="carrito-acciones disabled">
                 <div class="carrito-acciones-izquierda">
-                    <button class="carrito-acciones-vaciar">Vaciar Carrito</button>
+                    <button id="carrito-acciones-vaciar" class="carrito-acciones-vaciar">Vaciar Carrito</button>
                 </div>
                 <div class="carrito-acciones-derecha">
                     <div class="carrito-acciones-total">
@@ -52,7 +54,7 @@
                         <p id="total">$2000</p>
                         
                     </div>
-                    <button class="carrito-acciones-comprar">Comprar </button>
+                    <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar </button>
                 </div>
 
             
@@ -73,8 +75,9 @@
 
 
 
-
+   <!--JS liks--> 
     <script src="./js/carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     
 </body>
 
